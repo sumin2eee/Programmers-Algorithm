@@ -20,7 +20,7 @@ package programmers;
 
 import java.util.Arrays;
 
-public class introduction12 {  // 클래스 이름을 대문자로 수정
+public class Introduction12 {  // 클래스 이름을 대문자로 수정
     public int[] solution(int n) {
         // 홀수의 개수를 계산
         int count = (n + 1) / 2;
@@ -39,8 +39,8 @@ public class introduction12 {  // 클래스 이름을 대문자로 수정
     // main 메서드를 클래스 바깥에 추가
     public static void main(String[] args) {
         // 예시로 main 메서드에서 테스트 실행
-        introduction12 solution = new introduction12();
-        int[] result = solution.solution(10);  // 홀수의 개수 10일 때
+        Introduction12 introduction12 = new Introduction12();
+        int[] result = introduction12.solution(10);  // 홀수의 개수 10일 때
         System.out.println(Arrays.toString(result));  // 출력: [1, 3, 5, 7, 9]
     }
 }
